@@ -1,0 +1,7 @@
+Description: SPDK event_sock library
+Name: spdk_event_sock
+Version: 2.0
+Libs: -L/root/spdk/build/lib  -lspdk_event_sock
+Requires: spdk_event spdk_sock 
+Libs.private: 
+Cflags: -I/root/spdk/build/include

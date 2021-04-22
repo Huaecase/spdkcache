@@ -1,0 +1,7 @@
+Description: SPDK thread library
+Name: spdk_thread
+Version: 5.0
+Libs: -L/root/spdk/build/lib  -lspdk_thread
+Requires: spdk_log spdk_util 
+Libs.private: 
+Cflags: -I/root/spdk/build/include

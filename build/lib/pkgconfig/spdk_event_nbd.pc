@@ -1,0 +1,7 @@
+Description: SPDK event_nbd library
+Name: spdk_event_nbd
+Version: 3.0
+Libs: -L/root/spdk/build/lib  -lspdk_event_nbd
+Requires: spdk_event spdk_nbd spdk_event_bdev 
+Libs.private: 
+Cflags: -I/root/spdk/build/include

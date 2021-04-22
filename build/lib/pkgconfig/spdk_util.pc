@@ -1,0 +1,7 @@
+Description: SPDK util library
+Name: spdk_util
+Version: 3.0
+Libs: -L/root/spdk/build/lib  -lspdk_util
+Requires: spdk_log 
+Libs.private: 
+Cflags: -I/root/spdk/build/include
